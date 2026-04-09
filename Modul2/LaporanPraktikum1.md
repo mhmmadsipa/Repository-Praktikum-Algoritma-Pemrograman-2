@@ -33,7 +33,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/Output/Output1.png)
+![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/output/Output1.png)
 [penjelasan]
 Program ini meminta 3 output dari user lalu inputan nya diurutkan sesuai masukkan user dan akhirnya memberi outputan berupa hasil geser variabel.
 
@@ -66,7 +66,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Output1](hhttps://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/Output/Output2.png)
+![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/output/Output2.png)
 [penjelasan]
 Program ini dibuat untuk mengecek kombinasi 4 warna dalam percobaan. Jika warnanya merah, kuning, hijau, ungu maka true. Sebaliknya jika tidak sesuai maka false.
 
@@ -109,6 +109,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/Output/Output3.png)
+![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/output/Output3.png)
 [penjelasan]
 Program ini dibuat untuk menghitung biaya pengiriman berdasarkan berat dalam gram. Program mengubah gram menjadi kilogram lalu mengalikan dengan harga perkilonya lalu ditambahkan sisa beratnya dan program menampilkan hasil jumlahnya menjadi total harga.
