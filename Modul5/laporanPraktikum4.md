@@ -40,9 +40,9 @@ func fibonacci(n int) int {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul5/Output/Output1.png)
 
-[penjelasan]
-Program ini bertujuan untuk menampilkan deret indeks dari 0 hingga n serta deret bilangan Fibonacci hingga suku ke-n dengan menggunakan bahasa pemrograman Go. Nilai n diinput oleh pengguna, kemudian program mencetak indeks menggunakan perulangan. Untuk menghitung bilangan Fibonacci, digunakan fungsi rekursif, di mana jika n ≤ 1 maka nilai dikembalikan langsung, sedangkan jika n > 1 maka dihitung sebagai penjumlahan dua suku sebelumnya, yaitu Fibonacci(n-1) + Fibonacci(n-2).
-
+**Penjelasan:**  
+Program ini digunakan untuk menampilkan deret bilangan Fibonacci hingga suku ke-n sesuai dengan nilai yang dimasukkan oleh pengguna. Program terlebih dahulu mencetak indeks bilangan dari 0 sampai n menggunakan perulangan.Perhitungan nilai Fibonacci dilakukan melalui fungsi rekursif. Jika nilai n kurang dari atau sama dengan 1, maka fungsi langsung mengembalikan nilai tersebut. Namun, jika n lebih besar dari 1, maka nilainya diperoleh dari penjumlahan dua nilai sebelumnya, yaitu fibonacci(n-1) dan fibonacci(n-2).
+Hasil akhir yang ditampilkan berupa deret indeks dan deret Fibonacci yang bersesuaian.
 
 '''
 ### 2.Buatlah sebuah program yang digunakan untuk menampilkan pola bintang berikut ini dengan menggunakan fungsi rekursif. N adalah masukan dari user.
@@ -75,8 +75,10 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul5/Output/Output2.png)
 
-[penjelasan]
-Program ini bertujuan untuk menampilkan pola bintang berbentuk segitiga dengan jumlah baris sesuai nilai n yang diinput oleh pengguna. Fungsi sangbintang menggunakan konsep rekursi, di mana jika n sama dengan 0 maka fungsi berhenti (basis rekursi), sedangkan jika n lebih dari 0 maka fungsi akan memanggil dirinya sendiri dengan nilai n-1 terlebih dahulu. Setelah pemanggilan rekursif selesai, program mencetak n buah karakter "*" pada satu baris menggunakan perulangan, sehingga setiap baris memiliki jumlah bintang yang bertambah secara bertahap dari 1 hingga n. Dengan cara ini, pola yang dihasilkan akan berbentuk segitiga siku-siku yang tersusun dari atas ke bawah.
+**Penjelasan:**  
+Program ini bertujuan untuk menampilkan pola bintang berbentuk segitiga berdasarkan nilai input dari pengguna. Proses pembentukan pola dilakukan dengan menggunakan pendekatan rekursif.Fungsi `sangbintang` akan berhenti ketika nilai n sama dengan 0 sebagai kondisi dasar. Jika tidak, fungsi akan memanggil dirinya sendiri dengan nilai n-1 terlebih dahulu. Setelah itu, program mencetak sejumlah karakter "*" sesuai nilai n pada baris tersebut.
+Dengan mekanisme ini, jumlah bintang akan bertambah secara bertahap pada setiap baris, sehingga membentuk pola segitiga yang teratur dari atas ke bawah.
+
 '''
 
 ### 3. Buatlah program yang mengimplementasikan rekursif untuk menampilkan faktor bilangan dari suatu N, atau bilangan yang apa saja yang habis membagi N.
@@ -107,7 +109,9 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul5/Output/Output3.png)
 
-[penjelasan]
-Program ini bertujuan untuk menampilkan semua faktor dari suatu bilangan n yang diinput oleh pengguna dengan menggunakan pendekatan rekursif. Fungsi faktor(n, i) bekerja dengan memeriksa setiap bilangan i mulai dari 1 hingga n, di mana jika i lebih besar dari n maka proses dihentikan (basis rekursi). Pada setiap langkah, program mengecek apakah n habis dibagi i (n % i == 0), dan jika iya maka nilai i dicetak sebagai faktor dari n. Setelah itu, fungsi memanggil dirinya sendiri dengan nilai i+1 untuk melanjutkan pengecekan hingga seluruh kemungkinan faktor diperiksa. Dengan cara ini, semua faktor dari n akan ditampilkan secara berurutan.
+**Penjelasan:**  
+Program ini digunakan untuk menampilkan seluruh faktor dari suatu bilangan yang dimasukkan oleh pengguna. Proses dilakukan menggunakan metode rekursif dengan bantuan fungsi `faktor`.
+Fungsi akan memeriksa setiap bilangan mulai dari 1 hingga n. Jika nilai i melebihi n, maka proses akan dihentikan sebagai kondisi dasar. Pada setiap langkah, program mengecek apakah n habis dibagi oleh i. Jika iya, maka nilai i akan ditampilkan sebagai faktor.
+Setelah itu, fungsi akan memanggil dirinya sendiri dengan nilai i yang bertambah satu, hingga seluruh faktor dari bilangan tersebut ditemukan dan ditampilkan.
 
 '''
