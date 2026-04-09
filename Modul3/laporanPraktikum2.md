@@ -35,7 +35,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Output1](https://raw.githubusercontent.com/haidarsulthan/109082500184_HaidarSulthanMaulana/refs/heads/main/modul3/Output/Output1.png)
+![Output1](http://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul3/Output/Output1.png)
 [penjelasan]
 Program ini digunakan untuk menghitung prmutasi dan kombinasi dari 4 inputan user. disini ada 4 func yang pertama fktorial untuk menghitung faktorial menggunakan loop dimana loop akan berjalan dari 2 ke n dan mengalikan tiap i nya. Lalu func kedua untuk permutasi yang menghitung hasil bagi dari faktorial(n)/faktorial(n-r). Kemudian func ketiga untuk kombinasi bedanya dengan permutasi hanya pembaginya yang diubah menjadi faktorial(r)*faktorial(n-r). Yang terakhir ada func main disini hanya untuk membaca inputan user dan memunculkan output program.
 
