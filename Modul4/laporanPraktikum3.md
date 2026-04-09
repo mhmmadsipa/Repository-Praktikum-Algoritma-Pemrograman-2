@@ -105,6 +105,7 @@ package main
 
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul4/output/output2.png)
+
 [penjelasan]
 program membaca nama peserta satu per satu sampai memasukkan "selesai" agar program berhenti. Untuk setiap peserta, program memanggil fungsi hitungSkor dengan i <= 8 karna ada 8 soal yang diberikan dan waktu <= 300 ini juga karna diberikan waktu 5 jam. Di fungsi hitungSkor, program membaca waktu dari 8 soal. Jika waktu ≤ 300, soal dihitung benar dan akan ditambahkan dengan waktu. Program ini memakai pointer supaya nilai soal dan skor bisa langsung berubah tanpa return. Setelah itu, program membandingkan hasil setiap peserta. Pemenang adalah yang soalnya paling banyak, dan pengerjaan yang cepat.
 '''
