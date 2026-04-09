@@ -35,8 +35,8 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/output/Output1.png)
 
-[penjelasan]
-Program ini meminta 3 output dari user lalu inputan nya diurutkan sesuai masukkan user dan akhirnya memberi outputan berupa hasil geser variabel.
+**Penjelasan:**
+Program ini digunakan untuk menerima tiga buah data bertipe string dari pengguna. Setelah semua data dimasukkan, program akan menampilkan urutan awal sesuai input.
 
 
 '''
@@ -69,8 +69,9 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/output/Output2.png)
 
-[penjelasan]
-Program ini dibuat untuk mengecek kombinasi 4 warna dalam percobaan. Jika warnanya merah, kuning, hijau, ungu maka true. Sebaliknya jika tidak sesuai maka false.
+**Penjelasan:**
+Program ini bertujuan untuk mengevaluasi hasil percobaan berdasarkan urutan warna yang dimasukkan pengguna. Terdapat lima kali percobaan yang harus dilakukan.
+Pada setiap percobaan, program akan membaca empat warna. Jika urutan warna tidak sesuai dengan ketentuan (merah, kuning, hijau, ungu), maka status keberhasilan akan berubah menjadi salah.
 
 
 '''
@@ -113,5 +114,6 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul2/output/Output3.png)
 
-[penjelasan]
-Program ini dibuat untuk menghitung biaya pengiriman berdasarkan berat dalam gram. Program mengubah gram menjadi kilogram lalu mengalikan dengan harga perkilonya lalu ditambahkan sisa beratnya dan program menampilkan hasil jumlahnya menjadi total harga.
+**Penjelasan:**
+Program ini digunakan untuk menghitung total biaya pengiriman berdasarkan berat parsel yang dimasukkan dalam satuan gram. Berat tersebut kemudian dikonversi menjadi kilogram dan sisa gram.
+Biaya utama dihitung dari jumlah kilogram dengan tarif tertentu. Sisa berat dalam gram akan dikenakan biaya tambahan dengan ketentuan berbeda tergantung jumlahnya.
