@@ -51,6 +51,7 @@ func main() {
 
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul4/output/output1.png)
+
 [penjelasan]
 Program ini digunakan untuk menghitung permutasi dan kombinasi dari dua pasang bilangan yang diinputkan pengguna. Fungsi faktorial digunakan untuk menghitung n! dengan perulangan, dan menggunakan pointer agar hasil langsung disimpan ke variabel tanpa rturn(karna pointer berguna untuk menyimpan nilai sementara jadi tidak perlu mengembalikan nilai ke func lain). Fungsi permutasi dan kombinasi mengambil nilai dari func faktorial karna menggunakan pointer. Di fungsi main, program membaca empt bilangan, menghitung hasil untuk dua pasangan(permutasi dan kombinasi), lalu menampilkannya dalam dua baris.
 
