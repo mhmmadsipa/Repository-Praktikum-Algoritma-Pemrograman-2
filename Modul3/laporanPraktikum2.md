@@ -36,8 +36,10 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul3/Output/Output1.png)
 
-[penjelasan]
-Program ini digunakan untuk menghitung prmutasi dan kombinasi dari 4 inputan user. disini ada 4 func yang pertama fktorial untuk menghitung faktorial menggunakan loop dimana loop akan berjalan dari 2 ke n dan mengalikan tiap i nya. Lalu func kedua untuk permutasi yang menghitung hasil bagi dari faktorial(n)/faktorial(n-r). Kemudian func ketiga untuk kombinasi bedanya dengan permutasi hanya pembaginya yang diubah menjadi faktorial(r)*faktorial(n-r). Yang terakhir ada func main disini hanya untuk membaca inputan user dan memunculkan output program.
+**Penjelasan:**  
+Program ini digunakan untuk melakukan perhitungan permutasi dan kombinasi berdasarkan nilai yang dimasukkan oleh pengguna. Perhitungan diawali dengan fungsi `faktorial` yang bertugas menghitung nilai faktorial suatu bilangan menggunakan perulangan.
+Selanjutnya, fungsi `permutasi` memanfaatkan hasil faktorial untuk menghitung banyaknya susunan yang mungkin dengan rumus n!/(n−r)!, sedangkan fungsi `kombinasi` digunakan untuk menghitung banyaknya pilihan dengan rumus n!/(r!(n−r)!).
+Pada bagian utama program, pengguna diminta memasukkan empat buah bilangan. Program kemudian menghitung dan menampilkan hasil permutasi serta kombinasi dari dua pasang bilangan tersebut.
 
 
 '''
@@ -76,8 +78,10 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul3/Output/Output2.png)
 
-[penjelasan]
-Program ini dibuat untuk menghitung fungsi.Didalamnya terdapat 4 func, pertama ada f(x)untuk menghitung f(x) = x^2, g(x)= x - 2, h(x) = x + 1, dan terakhir ada main disini tempat untuk membaca input a,b,c dan menghitung (FOGOh)(a), (GOHOF)(b), dan (HOFOG)(c)
+**Penjelasan:**  
+Program ini mengimplementasikan beberapa fungsi matematika sederhana dan menggabungkannya dalam bentuk komposisi fungsi. Terdapat tiga fungsi utama, yaitu f(x) = x², g(x) = x − 2, dan h(x) = x + 1.
+Program menerima tiga buah input dari pengguna, kemudian setiap nilai akan diproses menggunakan kombinasi fungsi yang berbeda, seperti f(g(h(x))), g(h(f(x))), dan h(f(g(x))).
+Hasil dari masing-masing proses tersebut kemudian ditampilkan, sehingga pengguna dapat melihat hasil dari berbagai komposisi fungsi yang telah diterapkan.
 
 
 '''
@@ -125,5 +129,6 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul3/Output/Output3.png)
 
-[penjelasan]
-Program ini dibuat untuk menentukan lokasi titik sembarang.Di program ini terdapat 3 func, Pertama untuk menghitung jarak titik sembarang dari titik pusat,kedua untuk membandingkan jarak titik sembarang terhadap jari" lingkaran, dan yang terakhir main untuk membaca inputan user dan menentukan output yang akan dikeluarkan program
+**Penjelasan:**  
+Program ini digunakan untuk menentukan posisi suatu titik terhadap dua buah lingkaran. Setiap lingkaran didefinisikan oleh titik pusat dan jari-jari.
+Fungsi `jarak` digunakan untuk menghitung jarak antara dua titik dengan menggunakan rumus jarak Euclidean. Selanjutnya, fungsi `didalam` akan mengecek apakah suatu titik berada di dalam lingkaran dengan membandingkan jarak titik terhadap pusat lingkaran dengan panjang jari-jarinya.Pada bagian utama, program membaca data dua lingkaran dan satu titik. Berdasarkan hasil pengecekan, program akan menentukan apakah titik tersebut berada di dalam salah satu lingkaran, di dalam keduanya, atau di luar kedua lingkaran.
