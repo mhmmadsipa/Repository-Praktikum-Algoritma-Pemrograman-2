@@ -52,8 +52,9 @@ func main() {
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul4/output/output1.png)
 
-[penjelasan]
-Program ini digunakan untuk menghitung permutasi dan kombinasi dari dua pasang bilangan yang diinputkan pengguna. Fungsi faktorial digunakan untuk menghitung n! dengan perulangan, dan menggunakan pointer agar hasil langsung disimpan ke variabel tanpa rturn(karna pointer berguna untuk menyimpan nilai sementara jadi tidak perlu mengembalikan nilai ke func lain). Fungsi permutasi dan kombinasi mengambil nilai dari func faktorial karna menggunakan pointer. Di fungsi main, program membaca empt bilangan, menghitung hasil untuk dua pasangan(permutasi dan kombinasi), lalu menampilkannya dalam dua baris.
+**Penjelasan:**  
+Program ini digunakan untuk menghitung nilai permutasi dan kombinasi dari dua pasangan bilangan yang dimasukkan oleh pengguna. Perhitungan dilakukan dengan bantuan fungsi `faktorial` yang menggunakan perulangan untuk mendapatkan nilai n!.Berbeda dari sebelumnya, hasil perhitungan disimpan melalui parameter pointer, sehingga nilai dapat langsung diubah tanpa perlu menggunakan return. Fungsi `permutasi` dan `kombinasi` memanfaatkan nilai faktorial tersebut untuk menghitung hasil sesuai dengan rumus yang digunakan.
+Pada bagian utama program, pengguna memasukkan empat bilangan, kemudian program menghitung permutasi dan kombinasi untuk masing-masing pasangan, lalu menampilkannya dalam dua baris output.
 
 
 '''
@@ -107,6 +108,7 @@ package main
 ##### Output 
 ![Output1](https://github.com/mhmmadsipa/Repository-Praktikum-Algoritma-Pemrograman-2/blob/main/Modul4/output/output2.png)
 
-[penjelasan]
-program membaca nama peserta satu per satu sampai memasukkan "selesai" agar program berhenti. Untuk setiap peserta, program memanggil fungsi hitungSkor dengan i <= 8 karna ada 8 soal yang diberikan dan waktu <= 300 ini juga karna diberikan waktu 5 jam. Di fungsi hitungSkor, program membaca waktu dari 8 soal. Jika waktu ≤ 300, soal dihitung benar dan akan ditambahkan dengan waktu. Program ini memakai pointer supaya nilai soal dan skor bisa langsung berubah tanpa return. Setelah itu, program membandingkan hasil setiap peserta. Pemenang adalah yang soalnya paling banyak, dan pengerjaan yang cepat.
+**Penjelasan:**  
+Program ini bertujuan untuk menentukan pemenang dalam sebuah kompetisi pemrograman berdasarkan jumlah soal yang berhasil diselesaikan dan total waktu pengerjaan.Program membaca nama peserta satu per satu hingga pengguna memasukkan kata "selesai" sebagai tanda berhenti. Untuk setiap peserta, prosedur `hitungSkor` akan dipanggil untuk membaca waktu pengerjaan dari 8 soal.Jika waktu pengerjaan suatu soal tidak melebihi 300 menit, maka soal tersebut dianggap berhasil dan jumlah soal serta total waktu akan diperbarui. Penggunaan pointer memungkinkan perubahan nilai dilakukan langsung pada variabel asal tanpa pengembalian nilai.
+Setelah itu, program membandingkan hasil setiap peserta. Pemenang ditentukan berdasarkan jumlah soal terbanyak, dan jika jumlah soal sama, maka dipilih peserta dengan total waktu paling kecil.
 '''
